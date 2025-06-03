@@ -1,7 +1,7 @@
 #include "customer.h"
 #include <iomanip>
 #include <stdexcept>
-
+#include <sstream>
 
 bool Customer::isValidCard(int c)     { return c >= 1000 && c <= 9999; }
 bool Customer::isValidAccount(int a)  { return a >= 10000 && a <= 99999; }
